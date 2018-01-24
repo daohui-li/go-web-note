@@ -1,0 +1,9 @@
+<h1>Note List</h1>
+
+<p><a href="new">New Entry</a></p>
+
+<ul>
+    {{range $key, $value := .}}
+    <li><a href="/view/{{$key}}">{{$key}}</a></li>
+    {{end}}
+</ul>
