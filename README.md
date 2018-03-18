@@ -35,12 +35,12 @@ _Golang_ is a procedure language with its syntax similar to _C_ language. It als
 | --- | ---- |
 | note.go | _init_ and _main_ functions are defined |
 | | illustration of defining a data type _config_, an interface _cmdLine_ |
-|         | _config_ implements _cmdLine interface and package _flag_ is used to parse command line options; <note>Note</note> default flag.Usage() is over-written |
-| server.go | uses _http_ package to create a web server, which handles '/', '/new', and '/(view|edit|save)/\<title\>' calls, _http/template_ package to display web pages, and _regexp_ package used in validating and extracting substring |
+|         | _config_ implements _cmdLine_ interface and _flag_ package is used to parse command line options; <note>Note</note> default flag.Usage() is over-written |
+| server.go | uses _http_ package to create a web server, which handles '/', '/new', and '/(view|edit|save)/\<title\>' calls, _http/template_ package to display web pages, and _regexp_ package is used in validating and extracting substring |
 |         | also demonstrates with using functional pointer and closure  |
 | persist.go | uses _io/ioutil_ and _path/filepath_ packages to perform directory walk and file IO; _os_ package is used to create data directory |
 
 ## Development Tools
 
-- VC Code is the IDE in developing this project
+- VC Code is the IDE used in developing this project
 

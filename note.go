@@ -43,26 +43,8 @@ func init() {
 	appConfig = config{}
 	appConfig.parseCommandLine()
 
-	// getCmdLineOptions()
 	serverInit()
 	persistInit()
-}
-
-func getCmdLineOptions() {
-	// flag.Usage = usage // override default usage printout
-	// pHost := flag.String("host", "0.0.0.0", "server listening to")
-	// pPort := flag.Int("port", 8080, "Server's port")
-	// pTemplateDir := flag.String("template_dir", "template", "template directory")
-	// pDataDir := flag.String("data_dir", "data", "Data directory")
-	// flag.Parse()
-
-	// appConfig = config{
-	// 	dataDir:     *pDataDir,
-	// 	templateDir: *pTemplateDir,
-	// 	host:        *pHost,
-	// 	port:        *pPort,
-	// }
-
 }
 
 func main() {
